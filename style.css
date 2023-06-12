@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+#quote-container {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
